@@ -1,0 +1,27 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: Arial, sans-serif;
+  padding: 30px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.content {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+/* Chế độ tối */
+body.dark-mode {
+  background-color: #222;
+  color: white;
+}
+
+body.dark-mode .content {
+  border-color: #555;
+}
